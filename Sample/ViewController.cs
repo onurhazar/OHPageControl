@@ -26,7 +26,8 @@ namespace Sample
             var frame = new CGRect(0, 500, UIScreen.MainScreen.Bounds.Width, 100);
             pc = new OHPageControl(frame, 8)
             {
-                DotRadius = 3, //set dot radius 10, dot height 20, dot width 20 to make it circle
+                //set dot radius 10, dot height 20, dot width 20 to make it circle
+                DotRadius = 3,
                 Padding = 6,
                 DotHeight = 6,
                 DotWidth = 30,
